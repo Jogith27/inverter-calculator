@@ -30,6 +30,7 @@ def update():
 	else:
 		print("failed")
 def additem(load,item):
+	print("enter in form\nobject_name number_of_item watts")
 	for i in range(item):
 		obj,nos,watt=list(map(str,input().split()))
 		#load=load+int(nos)*int(watt)
